@@ -8,14 +8,14 @@
     <button onclick="inverterString()">Inverter</button>
     <p id="resultado"></p>
 </body>
-    <script>
-        function inverterString() {
-            var str = document.getElementById('str').value;
-            var strInvertida = '';
-            for (var i = str.length - 1; i >= 0; i--) {
-                strInvertida += str[i];
-            }
-            document.getElementById('resultado').innerHTML = strInvertida;
+<script>
+    function inverterString() {
+        var str = document.getElementById('str').value;
+        var strInvertida = '';
+        for (var i = str.length - 1; i >= 0; i--) {
+            strInvertida += str[i];
         }
-    </script>
+        document.getElementById('resultado').innerHTML = strInvertida;
+        }
+</script>
 </html>
