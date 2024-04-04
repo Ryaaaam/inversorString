@@ -2,6 +2,12 @@
 <html>
 <head>
     <title>Inversor de String</title>
+</head>
+<body>
+    <input type="text" id="str" placeholder="Digite seu texto">
+    <button onclick="inverterString()">Inverter</button>
+    <p id="resultado"></p>
+</body>
     <script>
         function inverterString() {
             var str = document.getElementById('str').value;
@@ -12,10 +18,4 @@
             document.getElementById('resultado').innerHTML = strInvertida;
         }
     </script>
-</head>
-<body>
-    <input type="text" id="str" placeholder="Digite seu texto">
-    <button onclick="inverterString()">Inverter</button>
-    <p id="resultado"></p>
-</body>
 </html>
