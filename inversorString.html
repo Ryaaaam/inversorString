@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inversor de String</title>
+    <script>
+        function inverterString() {
+            var str = document.getElementById('str').value;
+            var strInvertida = '';
+            for (var i = str.length - 1; i >= 0; i--) {
+                strInvertida += str[i];
+            }
+            document.getElementById('resultado').innerHTML = strInvertida;
+        }
+    </script>
+</head>
+<body>
+    <input type="text" id="str" placeholder="Digite uma string">
+    <button onclick="inverterString()">Inverter</button>
+    <p id="resultado"></p>
+</body>
+</html>
